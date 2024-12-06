@@ -1,3 +1,4 @@
+@import './custom.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,7 +12,6 @@ body {
   font-variation-settings: 'wdth' 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(8 47 73);
 }
 
 code {
@@ -34,14 +34,6 @@ code {
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
-}
-
-.material-symbols-outlined .filled {
   font-variation-settings:
     'FILL' 1,
     'wght' 400,

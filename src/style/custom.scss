@@ -1,0 +1,39 @@
+body p {
+  margin: 0;
+}
+
+.btn-ouline-primary {
+  border-color: #082f49;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.carousel-caption.full-width {
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.btn.cta {
+  border-radius: 1000px;
+  width: fit-content;
+  padding: 12px 32px;
+
+  background-color: #082f49;
+  border-color: #082f49;
+
+  font-size: small;
+  font-weight: bold;
+}
+
+.navbar > .container {
+  padding: 0px;
+}
+
+.navbar-toggler {
+  font-size: medium;
+  border-radius: 0px;
+  border-width: 0px;
+}
