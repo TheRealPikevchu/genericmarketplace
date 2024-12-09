@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProperties> = ({
         <div id="MainMenu" className="flex flex-col pb-3 text-sky-950">
           <div
             id="TopSection"
-            className="flex flex-row items-center justify-around"
+            className="flex flex-row items-center justify-around w-full"
           >
             <BurgerMenu />
           </div>

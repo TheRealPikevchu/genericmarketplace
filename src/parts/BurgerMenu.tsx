@@ -2,11 +2,13 @@ import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 
 function BurgerMenu() {
   return (
-    <Navbar expand="lg" className="bg-orange-500 text-sky-950 flex-row p-0">
+    <Navbar
+      expand="lg"
+      className="bg-orange-500 text-sky-950 flex-row w-full px-4 py-0"
+    >
       <Container>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
@@ -17,7 +19,7 @@ function BurgerMenu() {
           className="flex flex-row items-center justify-around py-3 "
         >
           <div id="Title" className="flex flex-row items-center text-sky-950">
-            <img src={'../assets/logo__small.png'} alt="logo" />
+            <img src={'./assets/logo__small.png'} alt="logo" />
             <p className="archivo-black text-xs text-sky-950">
               GenericMarketplace
             </p>

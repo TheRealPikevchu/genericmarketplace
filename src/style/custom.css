@@ -26,6 +26,12 @@ body p {
   font-weight: bold;
 }
 
+.btn.round.small {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
 .navbar > .container {
   padding: 0px;
 }
