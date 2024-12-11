@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router } from 'react-router-dom'
 import './style/index.css'
 import Header from './parts/Header'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import ProductHighlight from './parts/ProductHighlight'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

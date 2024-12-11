@@ -1,5 +1,5 @@
 import React from 'react'
-import CarouselPresenter from '../components/CarouselPresenter'
+// import CarouselPresenter from '../components/CarouselPresenter'
 
 interface ProductHighlightProperties {
   specialOffer?: string
@@ -12,7 +12,7 @@ const ProductHighlight: React.FC<ProductHighlightProperties> = ({
 }) => {
   return (
     <div className="px-8 py-4">
-      <CarouselPresenter
+      {/* <CarouselPresenter
         carouselCards={[
           {
             title: 'Welcome to GenericMarketplace.com !',
@@ -39,7 +39,7 @@ const ProductHighlight: React.FC<ProductHighlightProperties> = ({
             delay: 5000,
           },
         ]}
-      />
+      /> */}
     </div>
   )
 }

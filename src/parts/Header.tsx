@@ -1,8 +1,6 @@
 import React from 'react'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
-import InputGroup from 'react-bootstrap/InputGroup'
 import BurgerMenu from './BurgerMenu'
+import NavigationMenuDemo from './BurgerMenu'
 
 interface HeaderProperties {
   specialOffer?: string
@@ -40,7 +38,8 @@ const Header: React.FC<HeaderProperties> = ({
           >
             <BurgerMenu />
           </div>
-          <InputGroup size="sm" className="px-8">
+          <NavigationMenuDemo />
+          {/* <InputGroup size="sm" className="px-8">
             <Form.Control
               placeholder="search for an item..."
               aria-label="search for an item..."
@@ -56,7 +55,7 @@ const Header: React.FC<HeaderProperties> = ({
                 search
               </span>
             </Button>
-          </InputGroup>
+          </InputGroup> */}
         </div>
       </div>
     </div>
