@@ -10,7 +10,12 @@ export const plugins = [];
 
 module.exports = {
   darkMode: ["class"],
-  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
+  content: [
+    './src/pages/**/*.{ts,tsx}',
+    './src/components/**/*.{ts,tsx}',
+    './src/app/**/*.{ts,tsx}',
+    './@/**/*.{ts,tsx}', // Include Shadcn UI components
+  ],
   theme: {
     extend: {
       colors: {

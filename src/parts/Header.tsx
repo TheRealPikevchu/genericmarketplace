@@ -36,9 +36,8 @@ const Header: React.FC<HeaderProperties> = ({
             id="TopSection"
             className="flex flex-row items-center justify-around w-full"
           >
-            <BurgerMenu />
+            {/* <BurgerMenu /> */}
           </div>
-          <NavigationMenuDemo />
           {/* <InputGroup size="sm" className="px-8">
             <Form.Control
               placeholder="search for an item..."
